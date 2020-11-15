@@ -4,7 +4,7 @@
 using namespace std;
 
 
-	NodeInterface *BST::getRootNode() const {
+	NodeInterface* BST::getRootNode() const {
     return root;
   }
 

@@ -6,7 +6,7 @@ using namespace std;
 
 class BST: public BSTInterface {
 public:
-	Node *root;
+	Node* root;
 	BST() {
 		root = NULL;
 	}
@@ -14,7 +14,7 @@ public:
     clear();
   }
 
-	NodeInterface *getRootNode() const;
+	NodeInterface* getRootNode() const;
 
 	bool add(int data);
 	bool add_function(Node*& n, int value);
